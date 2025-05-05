@@ -50,6 +50,8 @@ class Program
 {
     static void Main()
     {
+        Console.BackgroundColor = ConsoleColor.Magenta;
+        Console.Clear();
         Console.Write("Enter Account Holder Name: ");
         string name = Console.ReadLine();
 
